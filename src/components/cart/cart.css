@@ -1,0 +1,185 @@
+.cart {
+    height: 100vh !important;
+    background-color: #F2F2F2 !important;
+}
+
+.main1 {
+    max-width: 1250px !important;
+    border: 2px solid #CCCCCC !important;
+    margin-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    border-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+.main-div1 {
+    display: flex;
+    width: 100% !important;
+    text-align: left !important;
+    align-items: center !important;
+}
+
+.main-p {
+    color: #036 !important;
+    margin-top: 8px;
+    margin-left: 40px !important;
+}
+
+.main-p:hover {
+    color: rgb(94, 157, 252) !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-div2 {
+    max-width: 1250px !important;
+    background-color: white !important;
+    text-align: left !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.main-div2-h3 {
+    margin-bottom: 0px !important;
+}
+
+hr {
+    /* border: 0.2px solid black !important; */
+    border-color: black !important;
+}
+
+.main-div21 {
+    width: 80% !important;
+}
+
+tr.border_bottom th {
+    border-bottom: 1px solid #CCCCCC;
+    padding-right: 107px !important;
+}
+
+table {
+    margin-top: 50px !important;
+}
+
+.main-p1 {
+    margin: 0px auto !important;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+}
+
+.light {
+    border: 1px solid #CCCCCC !important;
+    margin-bottom: 70px !important;
+}
+
+@media only screen and (max-width: 780px) {
+    .main-div21 {
+        display: none;
+    }
+    .main-div1 {
+        display: none;
+    }
+    .resCart {
+        display: block;
+    }
+    .resCart-h4 {
+        margin-top: 0px !important;
+        background-color: #F4F4F4 !important;
+        padding-left: 20px !important;
+        padding-top: 9px !important;
+        padding-bottom: 9px !important;
+        margin-bottom: 8px !important;
+    }
+    .main-div2 {
+        padding-top: 0px !important;
+    }
+}
+
+@media only screen and (min-width:781px) {
+    .resCart {
+        display: none;
+    }
+    .main-div21 {
+        display: block;
+    }
+    .main-div1 {
+        display: block;
+    }
+    .cartFlex {
+        display: none !important;
+    }
+    .cartEnd {
+        display: none !important;
+    }
+    .subTotal {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .cartFlex {
+        display: flex !important;
+        /* border-top: 1px solid grey !important; */
+        /* border-bottom: 1px solid grey !important; */
+        justify-content: space-around !important;
+        align-items: flex-start!important;
+        padding: 20px 5px !important;
+    }
+    .cartFlex-img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .cartFlex-btn {
+        border: 0px !important;
+        background-color: white !important;
+        font-weight: grey;
+    }
+    .cartEnd {
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        border-bottom: 1px solid grey !important;
+    }
+    .cartEnd-div1 {
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center !important;
+    }
+    .cartEnd-inp1 {
+        width: 40px !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+    .cartEnd-btn1 {
+        padding-top: 0px !important;
+    }
+    .cartEnd-p {
+        font-weight: bold;
+    }
+    .cartEnd-p>span {
+        color: green !important;
+    }
+    .subTotal {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        font-weight: bold !important;
+        font-size: 17px !important;
+    }
+    .subTotal-span {
+        color: green !important;
+    }
+    button {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-weight: bold !important;
+    }
+}
+
+.subTotal-p {
+    margin-top: 6px !important;
+}

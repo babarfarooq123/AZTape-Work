@@ -1,0 +1,91 @@
+    .quickMain {
+        /* max-width: 1250px !important; */
+        height: 100vh !important;
+        background-color: #F2F2F2 !important;
+    }
+    
+    .quickMain-div1 {
+        background-color: white !important;
+        max-width: 1250px !important;
+        margin: 0px auto !important;
+        text-align: left;
+        /* margin-bottom: 30px !important; */
+        /* padding-bottom: 30px !important; */
+    }
+    
+    .quickMain-h2 {
+        padding-top: 12px !important;
+    }
+    
+    .quickMain-p {
+        margin-bottom: 15px !important;
+        font-size: 14px !important;
+    }
+    
+    .quickMain-div2 {
+        border: 1px solid black !important;
+        margin-bottom: 25px !important;
+    }
+    
+    @media only screen and (max-width: 780px) {
+        .quickMain-inp-bless {
+            display: none !important;
+        }
+    }
+    
+    .quickMain-last {
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        width: 100% !important;
+        /* padding-left: 13px !important;
+        padding-right: 14px !important; */
+        margin-bottom: 30px !important;
+        text-align: center !important;
+    }
+    
+    .quick-last-btn {
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+        border-radius: 5px !important;
+        /* padding: 8px !important; */
+        border: none !important;
+        /* filter: drop-shadow(3px 3px 4px rgb(196, 192, 192)) !important; */
+        font-weight: 500 !important;
+        text-align: center !important;
+        background-color: lightgray !important;
+        /* height: 45px !important; */
+        /* width: 80px !important; */
+        align-content: center;
+    }
+    
+    .quick-btn3 {
+        border-radius: 5px !important;
+        /* padding: 8px !important; */
+        border: none !important;
+        filter: drop-shadow(3px 3px 4px rgb(196, 192, 192));
+        background-color: #003366 !important;
+        color: white !important;
+        /* font-weight: 500 !important; */
+        text-align: center !important;
+        /* height: 45px !important; */
+        /* width: 110px !important; */
+    }
+    
+    .quick-btn1 {
+        border-radius: 5px !important;
+        padding: 8px !important;
+        border: none !important;
+        /* filter: drop-shadow(3px 3px 4px rgb(196, 192, 192)) !important; */
+        font-weight: 500 !important;
+        /* height: 45px !important; */
+        background-color: lightgray !important;
+    }
+    
+    .footer {
+        background-color: #F2F2F2 !important;
+    }
+    
+    .quickMain-last1 {
+        display: flex !important;
+    }

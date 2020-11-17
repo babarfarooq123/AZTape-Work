@@ -1,0 +1,134 @@
+.box-1 h1 {
+    font-size: 30px !important;
+    text-align: left;
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.box-1 {
+    max-width: 1250px !important;
+    background-color: white;
+    border: 2px solid #E5E4E4;
+    padding-bottom: 60px;
+}
+
+.auth-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    flex-wrap: wrap !important;
+}
+
+.auth-box-1 {
+    text-align: left;
+    border: 1px solid #E5E4E4;
+    padding: 20px;
+    width: 40%;
+}
+
+.auth-box-1 p {
+    color: #003366;
+    font-weight: 500;
+}
+
+.auth-box-1 input {
+    padding: 3px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.auth-box-1 button {
+    background-color: #036;
+    border: 0;
+    border-radius: .4em;
+    box-shadow: 0.2em 0.2em 0.3em #b4b5b5;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    padding: .5em 1em;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .5), transparent 50%);
+    background-image: linear-gradient(rgba(255, 255, 255, .5), transparent 50%);
+    font-family: 'Ubuntu';
+}
+
+.auth-box-2 button {
+    background-color: #036;
+    border: 0;
+    border-radius: .4em;
+    box-shadow: 0.2em 0.2em 0.3em #b4b5b5;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    padding: .5em 1em;
+    text-decoration: none;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .5), transparent 50%);
+    background-image: linear-gradient(rgba(255, 255, 255, .5), transparent 50%);
+    font-family: 'Ubuntu';
+}
+
+.auth-box-2 {
+    text-align: left;
+    border: 1px solid #E5E4E4;
+    padding: 20px;
+    width: 40%;
+}
+
+.auth-box-2 input {
+    padding: 3px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.auth-box-2 p {
+    color: #003366;
+    font-weight: 500;
+}
+
+.bg-gray {
+    background-color: #F2F2F2;
+    height: 100vh;
+}
+
+.password1 {
+    display: none;
+}
+
+.password2 {
+    text-align: left;
+    padding-left: 62px;
+    color: #003366;
+    text-decoration: underline;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:780px) {
+    .auth-box-2 {
+        margin-top: 20px;
+    }
+    .password2 {
+        display: none;
+    }
+    .password1 {
+        display: block;
+        text-align: left !important;
+        color: #003366;
+        text-decoration: underline;
+        font-size: 15px;
+        cursor: pointer;
+    }
+}
+
+.link {
+    color: #6B6866 !important;
+}
+
+.linker {
+    color: white !important;
+}

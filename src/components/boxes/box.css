@@ -1,0 +1,68 @@
+ @media only screen and (max-width:780px) {
+     .img-section {
+         width: 120px !important;
+         height: 120px !important;
+     }
+     .p-tag {
+         font-size: 14px !important;
+         margin: 8px auto 0 auto !important;
+         width: 94% !important;
+         height: auto !important;
+         line-height: 18px !important;
+         color: #000 !important;
+     }
+     #box h1 {
+         text-align: left !important;
+         font-size: 20px;
+         text-transform: uppercase;
+         text-align: left;
+     }
+     .box-diver {
+         border: none !important;
+         /* border-color: transparent !important; */
+     }
+ }
+ 
+ #boxes-main {
+     display: flex;
+     margin: 0px auto !important;
+     max-width: 1250px !important;
+ }
+ 
+ #box {
+     text-align: center !important;
+     /* border: 1px solid black !important; */
+     padding: 10px !important;
+     border: 1px solid #d4d1d1;
+     padding-bottom: 30px !important;
+ }
+ 
+ .mainBox {
+     /* max-width: 1250px !important; */
+ }
+ 
+ #box h1 {
+     font-size: 22px !important;
+     margin: 0 0 17px 4px !important;
+     padding: 0 5px 0 0 !important;
+     text-align: left !important;
+     text-transform: uppercase !important;
+ }
+ 
+ .p-tag {
+     font-size: 12px;
+     text-align: center;
+     margin: 4px auto 0 auto;
+     width: 90%;
+     line-height: 16px;
+     font-weight: bold;
+     color: black !important;
+ }
+ 
+ .box-diver {
+     /* max-width: 1250px !important; */
+     border: 2px solid #d4d1d1;
+     padding-top: 10px !important;
+     padding-left: 10px !important;
+     padding-bottom: 10px !important;
+ }

@@ -1,0 +1,114 @@
+.sub {
+    height: 100vh !important;
+    background-color: #F2F2F2;
+}
+
+.subMain {
+    max-width: 1250px !important;
+    border: 1px solid #F2F2F2;
+    background-color: white !important;
+}
+
+.subMain-div1 {
+    text-align: left !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.subMain-div2 {
+    border: 2px solid rgb(216, 214, 214) !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    text-align: left !important;
+}
+
+.thh {
+    padding: 8px 16px !important;
+    text-align: center !important;
+}
+
+.table11 {
+    margin: 0px auto !important;
+    /* margin-top: 30px !important; */
+}
+
+.tdd {
+    text-align: center !important;
+    font-weight: normal !important;
+    padding: 8px 16px !important;
+    font-weight: 700 !important;
+}
+
+.model {
+    color: #003366 !important;
+}
+
+.tabInp {
+    width: 50px !important;
+}
+
+.tabBtn {
+    width: 50px !important;
+    border: 1px solid red !important;
+    font-weight: bold !important;
+    background-color: white !important;
+}
+
+.tabUp-p {
+    margin: 0px auto !important;
+    margin-top: 30px !important;
+    font-size: 15px !important;
+    padding-left: 12% !important;
+}
+
+@media only screen and (min-width: 781px) {
+    .subMain-div3,
+    .tabUp-p {
+        display: block !important;
+    }
+    .subMain-h2-1,
+    .prodMob {
+        display: none !important;
+    }
+    .subMain-div2 {
+        border: 2px solid rgb(216, 214, 214) !important;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .subMain-div3,
+    .tabUp-p,
+    .table11 {
+        display: none !important;
+    }
+    .subMain-h2-1 {
+        display: block;
+        font-size: 20px !important;
+    }
+    .subMain-div2 {
+        border: none !important;
+        margin: 0px auto !important;
+        text-align: center !important;
+    }
+    .prodMob {
+        display: flex !important;
+        /* align-items: center !important; */
+        margin: 0px auto !important;
+        margin-top: 40px !important;
+    }
+    .prodMob-btn {
+        text-align: center !important;
+        background-color: #F2F2F2 !important;
+        padding-top: 8px !important;
+        padding-bottom: 8px !important;
+        margin-top: 0px !important;
+        border: 1px solid rgb(180, 179, 179) !important;
+    }
+    .quickMain-inp-bless {
+        display: none !important;
+    }
+}
+
+.bold-text {
+    font-weight: bold;
+}

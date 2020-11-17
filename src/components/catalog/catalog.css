@@ -1,0 +1,112 @@
+.catalog-main {
+    max-width: 1250px !important;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.inside-catalog {
+    width: 85%;
+    text-align: left;
+}
+
+.acc-type {
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+
+.inside-catalog h1 {
+    font-size: 26px !important;
+    border-bottom: 1px solid black;
+}
+
+.acc-type {
+    display: flex;
+    align-content: center;
+}
+
+#company {
+    margin-top: 8px !important;
+    margin-right: 8px !important;
+    margin-left: 8px !important;
+}
+
+#personal {
+    margin-top: 8px !important;
+    margin-right: 8px !important;
+    margin-left: 8px !important;
+}
+
+#government {
+    margin-top: 8px !important;
+    margin-right: 8px !important;
+    margin-left: 8px !important;
+}
+
+.color-blue {
+    color: #036 !important;
+    text-decoration: underline;
+}
+
+.acc-type p {
+    margin-top: 6px !important;
+    font-weight: 500;
+    font-size: 15px !important;
+}
+
+.person-information input {
+    display: block;
+    margin-top: 8px !important;
+    padding: 2px;
+}
+
+.person-information select {
+    display: block;
+    margin-top: 8px !important;
+    padding: 2px;
+}
+
+.send-button {
+    background-color: #036;
+    border: 0;
+    border-radius: .4em;
+    box-shadow: 0.2em 0.2em 0.3em #b4b5b5;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    padding: .5em 1em;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(255, 255, 255, .5), transparent 50%);
+    font-family: 'Ubuntu';
+    padding: 10px !important;
+}
+
+.full-catalog {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+}
+
+.catalog-list {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.catalog-2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+@media screen and (max-width:780px) {
+    .acc-type {
+        font-size: 10px !important;
+    }
+}
